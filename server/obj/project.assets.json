@@ -12534,33 +12534,28 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\tspao\\.nuget\\packages\\": {},
+    "C:\\Users\\kdnie\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
-    "restoreSettings": {
-      "hideWarningsAndErrors": true
-    },
     "restore": {
-      "projectUniqueName": "E:\\LarryBirr\\server\\larry-backend.csproj",
+      "projectUniqueName": "D:\\Users\\kaidong\\VSCProjects\\LarryBirr\\server\\larry-backend.csproj",
       "projectName": "larry-backend",
-      "projectPath": "E:\\LarryBirr\\server\\larry-backend.csproj",
-      "packagesPath": "C:\\Users\\tspao\\.nuget\\packages\\",
-      "outputPath": "E:\\LarryBirr\\server\\obj\\",
+      "projectPath": "D:\\Users\\kaidong\\VSCProjects\\LarryBirr\\server\\larry-backend.csproj",
+      "packagesPath": "C:\\Users\\kdnie\\.nuget\\packages\\",
+      "outputPath": "D:\\Users\\kaidong\\VSCProjects\\LarryBirr\\server\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\tspao\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\kdnie\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

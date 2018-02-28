@@ -19,3 +19,14 @@ E:\LarryBirr\server\obj\Debug\netcoreapp2.0\larry-backend.AssemblyInfoInputs.cac
 E:\LarryBirr\server\obj\Debug\netcoreapp2.0\larry-backend.AssemblyInfo.cs
 E:\LarryBirr\server\obj\Debug\netcoreapp2.0\larry-backend.dll
 E:\LarryBirr\server\obj\Debug\netcoreapp2.0\larry-backend.pdb
+D:\Users\kaidong\VSCProjects\LarryBirr\server\bin\Debug\netcoreapp2.0\larry-backend.deps.json
+D:\Users\kaidong\VSCProjects\LarryBirr\server\bin\Debug\netcoreapp2.0\larry-backend.runtimeconfig.json
+D:\Users\kaidong\VSCProjects\LarryBirr\server\bin\Debug\netcoreapp2.0\larry-backend.runtimeconfig.dev.json
+D:\Users\kaidong\VSCProjects\LarryBirr\server\bin\Debug\netcoreapp2.0\larry-backend.dll
+D:\Users\kaidong\VSCProjects\LarryBirr\server\bin\Debug\netcoreapp2.0\larry-backend.pdb
+D:\Users\kaidong\VSCProjects\LarryBirr\server\obj\Debug\netcoreapp2.0\larry-backend.csprojResolveAssemblyReference.cache
+D:\Users\kaidong\VSCProjects\LarryBirr\server\obj\Debug\netcoreapp2.0\larry-backend.csproj.CoreCompileInputs.cache
+D:\Users\kaidong\VSCProjects\LarryBirr\server\obj\Debug\netcoreapp2.0\larry-backend.AssemblyInfoInputs.cache
+D:\Users\kaidong\VSCProjects\LarryBirr\server\obj\Debug\netcoreapp2.0\larry-backend.AssemblyInfo.cs
+D:\Users\kaidong\VSCProjects\LarryBirr\server\obj\Debug\netcoreapp2.0\larry-backend.dll
+D:\Users\kaidong\VSCProjects\LarryBirr\server\obj\Debug\netcoreapp2.0\larry-backend.pdb
