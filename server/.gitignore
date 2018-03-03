@@ -14,3 +14,8 @@ bld/
 [Bb]in/
 [Oo]bj/
 [Ll]og/
+
+#Scriptcs packages and config files
+scriptcs_packages/
+scriptcs_packages/config
+scriptcs_bin/

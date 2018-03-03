@@ -12540,11 +12540,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Users\\kaidong\\VSCProjects\\LarryBirr\\server\\larry-backend.csproj",
+      "projectUniqueName": "d:\\Users\\kaidong\\VSCProjects\\LarryBirr\\server\\larry-backend.csproj",
       "projectName": "larry-backend",
-      "projectPath": "D:\\Users\\kaidong\\VSCProjects\\LarryBirr\\server\\larry-backend.csproj",
+      "projectPath": "d:\\Users\\kaidong\\VSCProjects\\LarryBirr\\server\\larry-backend.csproj",
       "packagesPath": "C:\\Users\\kdnie\\.nuget\\packages\\",
-      "outputPath": "D:\\Users\\kaidong\\VSCProjects\\LarryBirr\\server\\obj\\",
+      "outputPath": "d:\\Users\\kaidong\\VSCProjects\\LarryBirr\\server\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

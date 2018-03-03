@@ -7,6 +7,7 @@ using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
+using server.Services.Http;
 
 namespace larry_backend
 {
@@ -14,7 +15,13 @@ namespace larry_backend
     {
         public static void Main(string[] args)
         {
+            var x =HttpUtility.sendGet("https://swapi.co/api/people/1/");
+
             BuildWebHost(args).Run();
+
+            
+
+            Console.WriteLine(x);
         }
 
         public static IWebHost BuildWebHost(string[] args) =>

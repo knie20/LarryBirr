@@ -1,8 +1,8 @@
 using System;
 using System.Net.Http;
 using System.Threading.Tasks;
-using Newtonsoft.Json;
-using Newtonsoft.Json.Linq;
+using System.Collections.Generic;
+
 
 namespace server.Services.Http
 {
@@ -15,17 +15,11 @@ namespace server.Services.Http
         private static readonly HttpClient client = new HttpClient();
 
         public async static Task<string> obtainBearerToken(){
-            client.DefaultRequestHeaders.Accept.Clear();
-            client.DefaultRequestHeaders.Add("Authorization", "Basic " + base64BearerTokenCredentials);
-            client.DefaultRequestHeaders.Add("Content-Type", "application/x-www-form-urlencoded;charset=UTF-8");
+            List<KeyValuePair<string, string>> headers = new List<KeyValuePair<string, string>>();
+            headers.Add(new KeyValuePair<string, string>("Authorization", "Basic " + base64BearerTokenCredentials));
+            headers.Add(new KeyValuePair<string, string>("Content-Type", "application/x-www-form-urlencoded;charset=UTF-8"));
 
-            var strTask = client.GetStringAsync(oAuthObtainPath);
-
-            JObject resJson = JsonConvert.DeserializeObject<JObject>(await strTask);
-
-            Console.WriteLine(resJson.GetValue("access_token").ToString());
-
-            return resJson.GetValue("access_token").ToString();
+            return await HttpUtility.sendGet(oAuthObtainPath, headers);
         }
     }
 }
